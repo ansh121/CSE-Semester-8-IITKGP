@@ -1,0 +1,93 @@
+OpenStack installation steps:
+
+Use the latest version of Ubuntu and OpenStack (18 or above)
+
+First update and upgrade your system - sudo apt-get update & upgrade
+
+You can install it using this link: https://docs.openstack.org/devstack/latest/
+or you can use the following steps:
+
+1. Install git
+	- sudo apt-get install git
+
+2. Clone the Devstack folder using git
+	-  git clone https://opendev.org/openstack/devstack
+
+3. Go to devstack folder
+	- cd devstack
+
+4. make a file named local.conf inside devstack folder
+	- sudo nano local.conf
+
+5. Paste the following:
+
+
+[[local|localrc]]
+
+# Password for KeyStone, Database, RabbitMQ and Service
+ADMIN_PASSWORD=secret
+DATABASE_PASSWORD=$ADMIN_PASSWORD
+RABBIT_PASSWORD=$ADMIN_PASSWORD
+SERVICE_PASSWORD=$ADMIN_PASSWORD
+
+# Host IP - get your Server/VM IP address from ip addr command
+HOST_IP=192.168.122.1
+
+6. save it
+	- Ctrl+o
+	- Enter
+
+7. exit nano
+	- Ctrl+x
+
+8. set no proxy
+	- export no_proxy='192.168.122.1,local,localhost,127.0.0.1'
+9. if your network has proxy, set all_proxy
+	- export all_proxy='https://your_proxy_address:8080'
+
+10. Run the stack.sh
+	- ./stack.sh
+
+If the installation is successful, you will see something like this in your terminal
+
+=========================
+DevStack Component Timing
+ (times are in seconds)  
+=========================
+wait_for_service      32
+pip_install          244
+apt-get              498
+run_process           26
+dbsync               635
+git_timed            233
+apt-get-update         1
+test_with_retry        9
+osc                  110
+-------------------------
+Unaccounted time     1064
+=========================
+Total runtime        2852
+
+
+
+This is your host IP address: <your ip>
+This is your host IPv6 address: ::1
+Horizon is now available at http://<your ip>/dashboard
+Keystone is serving at http://<your ip>/identity/
+The default users are: admin and demo
+The password: secret
+
+Services are running under systemd unit files.
+For more information see: 
+https://docs.openstack.org/devstack/latest/systemd.html
+
+DevStack Version: wallaby
+Change: aef50ed18c3c9b7c01894f6c8e00e297abebe690 Merge "[OVN] Use OVN from packages" 2020-12-30 16:29:29 +0000
+OS Version: Ubuntu 20.04 focal
+
+2021-01-02 21:51:47.900 | stack.sh completed in 2852 seconds.
+
+11. Then you can access the openstack using the link: http://<your ip>/dashboard
+
+
+

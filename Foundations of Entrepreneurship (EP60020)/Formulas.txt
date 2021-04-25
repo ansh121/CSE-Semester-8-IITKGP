@@ -1,0 +1,74 @@
+Financial Statements:
+
+	Gross profit = Sales – Cost of goods sold
+	Cost of goods sold = Opening inventory + Purchase during the year – Closing Inventory
+	Operating profit = Gross profit – Operating expenses
+	Operating Expenses includes depriciation, ammortization, salary
+	Profit Before Tax (PBT) = Operating profit – Interest expenses
+	Net profit = Profit before tax – Income tax
+	Retained profit = Net profit – dividend 
+	EBITDA = Earnings (profit) before Interest, tax, depreciation & amortization.
+		   = Operating Profit + Depreciation + Amortization
+
+
+	𝑮𝒓𝒐𝒔𝒔 𝑷𝒓𝒐𝒇𝒊𝒕 𝑴𝒂𝒓𝒈𝒊𝒏=(𝑮𝒓𝒐𝒔𝒔 𝒑𝒓𝒐𝒇𝒊𝒕)/𝑺𝒂𝒍𝒆𝒔x100
+	𝑶𝒑𝒆𝒓𝒂𝒕𝒊𝒏𝒈 𝑷𝒓𝒐𝒇𝒊𝒕 𝑴𝒂𝒓𝒈𝒊𝒏=(𝑶𝒑𝒆𝒓𝒂𝒕𝒊𝒏𝒈 𝒑𝒓𝒐𝒇𝒊𝒕)/𝑺𝒂𝒍𝒆𝒔X100
+	𝑵𝒆𝒕 𝑷𝒓𝒐𝒇𝒊𝒕 𝑴𝒂𝒓𝒈𝒊𝒏=(𝑵𝒆𝒕 𝒑𝒓𝒐𝒇𝒊𝒕)/𝑺𝒂𝒍𝒆𝒔X100
+	𝑬𝑩𝑰𝑻𝑫𝑨 𝑴𝒂𝒓𝒈𝒊𝒏=𝑬𝑩𝑰𝑻𝑫𝑨/𝑺𝒂𝒍𝒆𝒔X100
+
+	Depreciation = (Procurement cost – Salvage value)/Useful life
+	profit before tax = gross - operating profit - depreciation - interest
+	surplus this year = profit after tax - dividend
+	total surplus = previous surplus + this year surplus
+
+
+Break Even Point(BEP) Analysis:
+	P = Q*S-Q*V-F
+	Q = (F+P)/(S-V)	{P=0 for zero profit}
+
+		Profit P = Sales minus all the Costs 
+		Costs: 
+			Fixed (F: total per period) and Total Variable (V: per unit)xQ
+		Selling Price = S; 
+		Quantity Sold = Q; 
+		Profit = P
+		Sales = Q*S; 
+		Total variable cost = Q*V; 
+		Total Cost = Q*V + F 
+
+	Contribution Margin = Selling price(S) – Unit variable cost(V)
+	Contribution (total contribution) = Total sales – Total variable cost
+	Margin of safety = Total Units sold - BEP
+
+
+Degree of Operating Leverages(DOL) = (% change in EBIT) / (% change in sales)
+							  = (sales - vaiable costs)/(sales - variable costs- fixed costs)
+
+
+𝑫𝒆𝒈𝒓𝒆𝒆 𝒐𝒇 𝑭𝒊𝒏𝒂𝒏𝒄𝒊𝒂𝒍 𝑳𝒆𝒗𝒆𝒓𝒂𝒈𝒆(𝑫𝑭𝑳) = (𝑬𝑩𝑰𝑻)/(𝑬𝑩𝑰𝑻−𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕)
+	EBIT = Earnings before interest and taxes
+	
+
+#####################################  CASH FLOW #######################################
+
+Indirect Method: Cash Flow from Operational Activities
+	Total cash flow from operating activities =
+		+ Net profit (known as Net Income in USA)
+		+ Depreciation (This was deducted as expense. But no cash went out)
+		+ Losses from sale of fixed assets, if any.
+		— Gains from sale of fixed assets, if any.
+		(Note that sales value of fixed assets will be included in in cash flow from investment activity)
+		— Increase in current assets.
+		+ Decrease in current assets.
+		+ Increase in current liabilities
+		— Decrease in current liabilities
+
+Cash Flow from Investment Activities
+	+ Capital expenditure
+	+ Investment
+
+Cash Flow from Financing Activities
+	+ Net borrowing.
+	— Net investment in equity or debt.
+	— Dividend paid
+	+ Fresh equity induction. 
