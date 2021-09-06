@@ -4,6 +4,7 @@
 * Intro to Sociology (HS30001)
 * Natural Language Processing (CS60075)
 * Technology for Special Needs Education (ET60029)
+* Cloud Computing (CS60118)
 
 Content :- Notes, Tutorials, Assignments and Lecture Slides.  
 
